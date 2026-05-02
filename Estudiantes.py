@@ -44,4 +44,7 @@ class Alumnos:
         return "Es mayor de edad"
       else:
         return "Es menor de edad"
+     def cambiar_carrera(self, nueva_carrera):
+        self.__carrera = nueva_carrera
+
     
