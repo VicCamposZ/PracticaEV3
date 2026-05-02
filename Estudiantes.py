@@ -51,3 +51,19 @@ class Alumnos:
      
 alumno1 = Alumnos(123, "Victoria", "Programacion", 2, 18)
 
+print("Informacion")
+print(alumno1.info())
+print("Mayoria edad")
+print(alumno1.mayor_edad())
+print("*cambiar carrera*")
+alumno1.cambiar_carrera("Administracion")
+print(alumno1.info())
+print("Midificar alumno")
+alumno1.set_nombre("Abigail")
+alumno1.set_edad(19)
+print(alumno1.info())
+print("*Usando Getters*")
+print("Nombre:", alumno1.get_nombre())
+print("Edad:", alumno1.get_edad())
+print("Carrera:", alumno1.get_carrera())
+    
