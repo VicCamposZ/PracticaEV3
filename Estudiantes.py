@@ -49,3 +49,5 @@ class Alumnos:
      def info(self):
         return f"Matricula: {self.__matricula}, Nombre: {self.__nombre}, Carrera: {self.__carrera}, Semestre: {self.__semestre}, Edad: {self.__edad}"
      
+alumno1 = Alumnos(123, "Victoria", "Programacion", 2, 18)
+
